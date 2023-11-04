@@ -64,7 +64,7 @@ a:hover {
     left: 20%;
 }
 
-#banner {
+#home {
     width: 40vw;
     height: 100vh;
     display: flex;
@@ -76,7 +76,7 @@ a:hover {
     left: 50%;
 }
 
-#banner p {
+#home > p {
     font-size: 1.7rem;
     font-style: bold;
 }
