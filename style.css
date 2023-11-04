@@ -19,22 +19,28 @@
 h1 {
     font-family: "Rozha One" !important;
     font-size: 3rem;
+    -webkit-text-stroke: 1px var(--bg);
 }
 
-a {
+button, a {
     text-decoration: none;
     font-size: 1rem;
     border: 1px solid var(--fg);
     background-color: var(--fg);
     color: var(--bg);
     border-radius: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
+    transition: all 200ms;
 }
 
-a:hover {
+button:hover, a:hover {
+    font-weight: bolder;
     background-color: var(--bg);
     color: var(--fg);
-    transition: background-color 200ms, color 200ms;
+}
+
+button:active, a:active {
+    transform: scale(0.9);
 }
 
 #background {
@@ -64,35 +70,47 @@ a:hover {
     left: 20%;
 }
 
-#home {
-    width: 40vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    position: absolute;
-    gap: 2rem;
-    left: 50%;
-}
-
-#home > p {
-    font-size: 1.7rem;
-    font-style: bold;
-}
-
-#about {
+section {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
+}
+
+section > div {
+    display: flex;
+    gap: 1rem;
+}
+
+section#home {
+    width: 40vw;
+    align-items: start;
+    position: absolute;
+    left: 50%;
+}
+
+section#home > p {
+    font-size: 1.7rem;
+    font-style: bold;
+}
+
+section#about {
     gap: 1.5rem;
 }
 
-#about > p {
+section#about > p {
     text-align: center;
     font-size: 1.25rem;
     width: 50vw;
+}
+
+section#shelter > div#shelters {
+    height: 50%;
+    width: 60%;
+    gap: 0.5rem;
+    border: 0.2rem solid var(--fg);
+    border-radius: 0.5rem;
 }

@@ -2,6 +2,7 @@ const routes = {
     404: "/pages/404.html",
     "/": "/pages/index.html",
     "/about": "/pages/about.html",
+    "/shelter": "/pages/shelter.html",
 };
 
 function route(event) {
