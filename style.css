@@ -52,6 +52,18 @@ a:hover {
     z-index: -1;
 }
 
+#logo {
+    width: 20rem;
+    height: 20rem;
+    background-image: url("/tales_of_hope_no_bg.png");
+    background-size: 20rem 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
 #banner {
     width: 40vw;
     height: 100vh;
