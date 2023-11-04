@@ -18,6 +18,26 @@ async function load() {
     const html = await fetch(route);
 
     document.getElementById("main").innerHTML = await html.text();
+
+    if (path == "/shelter") {
+        await loadShelters();
+    }
+}
+
+async function loadShelters() {
+    const shelters = await fetch("data/shelters.json").then(r => r.json());
+    const sheltersContainer = document.getElementById("shelters");
+
+    for (let i = 0; i < shelters.length; i++) {
+        const shelter = shelters[i];
+        const element = document.createElement("a");
+
+        element.href = shelter.link;
+        element.target = "_blank";
+        element.innerHTML = `<h2>${shelter.name}</h2>
+<div>${shelter.address}</div>`;
+        sheltersContainer.appendChild(element);
+    }
 }
 
 window.onpopstate = load;

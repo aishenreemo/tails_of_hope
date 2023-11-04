@@ -108,9 +108,21 @@ section#about > p {
 }
 
 section#shelter > div#shelters {
+    flex-direction: column;
     height: 50%;
     width: 60%;
     gap: 0.5rem;
     border: 0.2rem solid var(--fg);
-    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    overflow-y: scroll;
+    box-sizing: content-box; 
+}
+
+section#shelter > div#shelters > * {
+    background-color: var(--bg);
+    color: var(--fg);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }

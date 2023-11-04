@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Chiklet Kennel",
+        "address": "Lakeview Homes 2, 152 Yakal St Putatan Muntinlupa, 1781 Metro Manila",
+        "type": "animal_shelter",
+        "phone": "0908 524 2194",
+        "link": "https://maps.app.goo.gl/TLEk2HNgXj5zxV6z5",
+        "location": "14.459099816565217, 121.04114155582056"
+    },
+    {
+        "name": "San Pedro Mini Animal Shelter",
+        "address": "119 Narra Rd, San Pedro, Laguna",
+        "type": "animal_shelter",
+        "link": "https://maps.app.goo.gl/nJiUE3YGkVBoX6Hj7",
+        "location": "14.38461891905336, 121.01367573546463"
+    },
+    {
+        "name": "The Cat House",
+        "address": "General Trias Cavite",
+        "type": "non_governmental_organization",
+        "phone": "0906 235 2037",
+        "link": "https://maps.app.goo.gl/TEPn7vsW8gUbYnqK8",
+        "location": "14.38993980832503, 120.89557270793422"
+    },
+    {
+        "name": "Flamebird Gamefarm",
+        "address": "Calamba, Laguna",
+        "type": "animal_shelter",
+        "link": "https://maps.app.goo.gl/smqfebjpGym3dsqg6",
+        "location": "14.206296160720251, 121.09881977856794"
+    },
+    {
+        "name": "Heaven Sent Animal Sunctuary",
+        "address": "Balubad, Alfonso, Cavite",
+        "type": "animal_shelter",
+        "link": "https://maps.app.goo.gl/JeJrkP8CTC8Z5VMr8",
+        "location": "14.38993980832503, 120.89557270793422"
+    },
+    {
+        "name": "Preslee's Home",
+        "address": "B15 L40 Road 9 Greenbreeze IV Subdivision, Dasmariñas, Cavite",
+        "type": "animal_shelter",
+        "phone": "0926 895 8408",
+        "link": "https://maps.app.goo.gl/Vo7MEbbR6Xp1vVZ87",
+        "location": "14.320758374807843, 120.98071675103753"
+    },
+    {
+        "name": "Topnotch Whelping Center",
+        "address": "18 F. Bautista St, San Francisco del Monte, Quezon City, Metro Manila",
+        "type": "animal_shelter",
+        "phone": "0977 026 1967",
+        "link": "https://maps.app.goo.gl/62E2fb5PtzE1g3qh9",
+        "location": "14.700989764167618, 121.03015522767816"
+    },
+    {
+        "name": "Animal House",
+        "address": "1/L SP 116 - 117 SM Mall of Asia, Pasay City, 1300, Pasay",
+        "type": "animal_shelter",
+        "phone": "0917 845 5275",
+        "link": "https://maps.app.goo.gl/JeJrkP8CTC8Z5VMr8",
+        "location": "14.5734325604056, 120.98620991510872"
+    }
+]
