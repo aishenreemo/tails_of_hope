@@ -1,0 +1,86 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.5em;
+    font-weight: 400;
+    --fg: #CA9F77;
+    --bg: #FFEFE2;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--fg);
+}
+
+h1 {
+    font-family: "Rozha One" !important;
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid var(--fg);
+    background-color: var(--fg);
+    color: var(--bg);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+a:hover {
+    background-color: var(--bg);
+    color: var(--fg);
+    transition: background-color 200ms, color 200ms;
+}
+
+#background {
+    background-image: url("/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110vw 105vh;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+#banner {
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    gap: 2rem;
+    left: 50%;
+}
+
+#banner p {
+    font-size: 1.7rem;
+    font-style: bold;
+}
+
+#about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#about > p {
+    text-align: center;
+    font-size: 1.25rem;
+    width: 50vw;
+}
